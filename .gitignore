@@ -33,6 +33,7 @@
 
 # Editor
 .vscode/
+.cache/
 
 # Cmake build
 build/

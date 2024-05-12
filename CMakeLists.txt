@@ -1,8 +1,8 @@
-cmake_minimum_required(VERSION 3.9)
+cmake_minimum_required(VERSION 3.25)
 
-project(liblsp)
+project(liblsp VERSION 0.1.0 LANGUAGES CXX)
 
-set(CXX_STANDARD 17)
+set(CXX_STANDARD 20)
 set(CXX_STANDARD_REQUIRED ON)
 
 if (UNIX)
