@@ -6,3 +6,5 @@ add_executable(Simple
 
 set_property(TARGET Simple PROPERTY CXX_STANDARD 17)
 target_link_libraries(Simple lsp)
+
+add_subdirectory(jsonrpc)

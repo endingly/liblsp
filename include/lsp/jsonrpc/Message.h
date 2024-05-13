@@ -104,6 +104,8 @@ public:
   static MessagePtr createNotification(const std::string &Method);
 };
 
+/// @brief JSON-RPC error codes
+/// @see https://www.jsonrpc.org/specification#error_object
 enum ErrorCode {
   ParseError = -32700,
   InvalidRequest = -32600,
